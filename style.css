@@ -192,15 +192,16 @@ h2 {
 
 .body-3 {
 display: flex;
-padding: 80px 120px;
+padding: 80px 100px;
 justify-content: center;
 align-items: center;
 }
 
 .container-body-3{
     display: flex;
+    flex-shrink: 1;
     background-color: #3882F6;
-    padding: 20px 100px;
+    padding: 20px 40px;
     justify-content: space-between;
     align-items: center;
     gap: 30px;
@@ -221,8 +222,13 @@ align-items: center;
     width: 100px;
     height: 40px;
     padding: 10px 20px;
-    border-radius: 20%;
+    border-radius: 40%;
     background-color: #3882F6;
+}
+
+.container-1-body-3,
+.container-2-body-3 {
+    padding: 30px;
 }
 
 .footer {
