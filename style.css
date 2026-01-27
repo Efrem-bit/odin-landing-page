@@ -224,3 +224,16 @@ align-items: center;
     border-radius: 20%;
     background-color: #3882F6;
 }
+
+.footer {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.footer-text {
+    margin: 0 auto;
+}
